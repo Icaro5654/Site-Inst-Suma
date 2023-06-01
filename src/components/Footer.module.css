@@ -1,0 +1,36 @@
+.footer {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 26, 24);
+}
+
+/*Midia*/
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.social_list li {
+    margin: 0 1em;
+}
+
+.social_list li:hover{
+    color: rgb(80, 240, 80);
+}
+
+.social_list svg {
+    font-size: 1.5em;
+    cursor: pointer; /*MOUSE*/
+}
+
+.copy_right {
+    margin-top: 2em;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: rgb(80, 240, 80);
+}
