@@ -1,0 +1,10 @@
+.about_container {
+    padding: 2em;
+}
+
+.about_container h2 span{
+    color: rgb(80, 240, 80);
+    padding: 0 .2em;
+    background-color: #182118;
+    border-radius: 22px;
+}

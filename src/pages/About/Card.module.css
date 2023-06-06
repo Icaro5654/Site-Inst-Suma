@@ -1,0 +1,26 @@
+.container_card{
+   background-color: rgba(25, 50, 6, 0.592);
+   color: rgb(227, 233, 228);
+   border-radius: 15px;
+
+}
+
+.container_card img {
+    width: 200px;
+    border-radius: 12px;
+    margin-left: 2em;
+
+}
+ span {
+    color: yellowgreen;
+    font-size: 1.2em;
+ }
+
+ .container_card h5 span {
+   color:yellowgreen;
+   padding: 0 .2em;
+   background-color: #0d0c0c;
+   border-radius: 15px;
+  
+
+}

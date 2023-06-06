@@ -7,6 +7,25 @@
     /*position: fixed; /*Navbar fixo*/
 }
 
+/*---COR DO NAVBAR E LINKS--*/
+a,
+nav button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color:green;
+  transition: .4s;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+a:hover {
+    color: chartreuse;
+  }
+/*----END----*/
+
+
+
 .brand {
     font-size: 1.2em;
 }
@@ -23,6 +42,7 @@
 
 .links_list {
     margin-right: 1em;
+    margin-top: 2em;
 }
 
 

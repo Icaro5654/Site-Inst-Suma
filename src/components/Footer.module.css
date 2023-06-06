@@ -15,7 +15,9 @@
 }
 .social_list li {
     margin: 0 1em;
+
 }
+
 
 .social_list li:hover{
     color: rgb(80, 240, 80);

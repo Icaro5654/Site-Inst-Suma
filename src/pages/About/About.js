@@ -1,8 +1,14 @@
 import styles from './About.module.css'
+import AboutCard from './About_Card';
 
 function About(){
     return(
-        <h1 className={styles.h1}>About</h1>
+        <div className={styles.about_container}>
+            <h2>O que é o <span>Instituto Sumaúma?</span></h2>
+            <br/>
+            <AboutCard />
+
+        </div>
     )
 }
 

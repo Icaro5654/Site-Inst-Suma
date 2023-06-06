@@ -14,7 +14,7 @@ const Footer = () =>{
                     <FaInstagram />                    
                 </li>
                 <li>
-                    <FaLinkedin />
+                   <FaLinkedin />
                 </li>
                 <li>
                     <FaWhatsapp />
