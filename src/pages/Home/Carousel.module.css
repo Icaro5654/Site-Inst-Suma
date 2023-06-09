@@ -1,8 +1,5 @@
-.container_fluid {   
-    width: 80%;
+.container_fluid {  
+    margin: 0 auto; 
+    width: 70%;
 
-}
-
-.container_fluid h3 {
-    color: brown;
 }

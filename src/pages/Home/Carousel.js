@@ -5,7 +5,8 @@ import styles from './Carousel.module.css'
 
 //img
 import parque from '../../img/parque.svg'
-
+import entrada from '../../img/Parque/entrada.png'
+import parque1 from '../../img/Parque/parque1.png'
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -19,8 +20,8 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={parque}
-          alt={parque}
+          src={entrada}
+          alt={entrada}
         />
         <Carousel.Caption>
           <h2>Conheça nosso parque</h2>
@@ -42,8 +43,8 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={parque}
-          alt={parque}
+          src={parque1}
+          alt={parque1}
         />
 
         <Carousel.Caption>

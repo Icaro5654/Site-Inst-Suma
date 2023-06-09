@@ -7,6 +7,10 @@
     /*position: fixed; /*Navbar fixo*/
 }
 
+.navbar img {
+    width: 70px;
+}
+
 /*---COR DO NAVBAR E LINKS--*/
 a,
 nav button {
@@ -50,9 +54,5 @@ a:hover {
     padding: .4em .6em; /*tamanho da caixa ativa*/
 }
 
-/*
 
-.active {
-    background-color: #000;
-    color: #fff
-}*/
+/*---Mobile---*/

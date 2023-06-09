@@ -1,6 +1,7 @@
 /*------ESTILOS GERAIS-----*/
 body {
   background-image: url('./img/background-green.svg');
+  background-size: cover;
   color: aliceblue;
   /*padding: 0;
   margin: 0;*/

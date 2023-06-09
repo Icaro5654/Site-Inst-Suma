@@ -9,12 +9,12 @@ import logo from "../img/logo.png"
 const Navbar = () => {
     return(
         <nav className={styles.navbar}>
-            <NavLink to='/home'>
+            <NavLink to='/'>
                 <img src={logo} alt="Instituto Sumaúma" width="70px"/>
             </NavLink>
             <ul className={styles.links_list}>
                 <li>
-                    <NavLink to="/home">Home</NavLink>
+                    <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
                     <NavLink to="/about">Sobre</NavLink>
