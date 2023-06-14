@@ -22,4 +22,39 @@
     background-color: #182118;
 }
 
+/*card*/
 
+.conteudo {
+    margin-top: 4em;
+    width: 800px;
+    display: flex;
+    background-color: #182118;
+    padding-left: 1em;
+    border-radius: 9px;
+}
+
+
+
+.card {
+    padding-left: 2em;
+    width: 500vh;
+    
+}
+
+.conteudo2 {
+    margin-top: 4em;
+    width: 800px;
+    display: flex;
+    background-color: #182118;
+    margin-left: 32%;
+    padding-left: 1em;
+    border-radius: 9px;
+}
+
+/*conteudo*/
+
+.card1 {
+    padding-left: 2em;
+    width: 500vh;
+    
+}

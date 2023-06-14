@@ -1,0 +1,50 @@
+.conteudo {
+    max-width: 900px;
+    width: fit-content;
+    display: flex;
+    margin-top: 2em;
+    background-color: #182118;
+    border-radius: .5em;
+    
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: .5em;
+    border-style: solid;
+    border-color: rgb(144, 98, 5);
+    
+}
+
+.card {
+    display: flex;
+    color: aliceblue;
+
+}
+
+.card p{
+    font-size: larger;
+    text-align: justify;
+    padding-left: 2em;
+}
+
+
+@media screen and (max-width: 720px){
+    .conteudo {
+        max-width: 375px;;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card img {
+        width: 100%;
+    }
+    .card p {
+        margin-top: .5em;
+        font-size: 1em;
+        text-align: justify;
+        padding: 0;
+    }
+
+}

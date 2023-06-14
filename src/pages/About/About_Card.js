@@ -7,7 +7,7 @@ function AboutCard() {
   return (
     <>
       <Card className={styles.container_card}>
-        <br/>
+        <div className={styles.about} >
         <Card.Img variant="top" src={logo} alt='logo'/>
         <Card.Body>
           <Card.Text>
@@ -30,7 +30,7 @@ function AboutCard() {
             culturais e pesquisas científicas.
           </Card.Text>
         </Card.Body>
-        <Card.Img variant="top" src={logo} alt='logo'/>
+        </div>
       </Card>
     </>
   );

@@ -4,9 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import styles from './Carousel.module.css'
 
 //img
-import parque from '../../img/parque.svg'
-import entrada from '../../img/Parque/entrada.png'
-import parque1 from '../../img/Parque/parque1.png'
+import parque from '../../../img/parque.svg'
+import entrada from '../../../img/Instituto/entrada.png'
+import parque1 from '../../../img/Instituto/parque1.png'
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);

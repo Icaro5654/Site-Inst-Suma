@@ -1,16 +1,11 @@
 .container_card{
-   background-color: rgba(25, 50, 6, 0.592);
+   width: fit-content;
+   background-color: #182118c7;
    color: rgb(227, 233, 228);
    border-radius: 15px;
 
 }
 
-.container_card img {
-    width: 200px;
-    border-radius: 12px;
-    margin-left: 2em;
-
-}
  span {
     color: yellowgreen;
     font-size: 1.2em;
@@ -23,4 +18,15 @@
    border-radius: 15px;
   
 
+}
+
+.about {
+   display: flex;
+
+}
+
+.about img {
+   width: 200px;
+   border-radius: 12px;
+   margin-left: .5em;
 }
